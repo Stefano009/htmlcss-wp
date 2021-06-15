@@ -124,14 +124,14 @@ footer{
 .aside{
     position: relative;
     width:calc(100%/5);
-    height: 100px;
+    height: 200px;
     padding: 10px;
 }
 
 .middle{
     position: relative;
     width: calc((100%/5)*3 - 20px);
-    height: 100px;
+    height: 200px;
     margin: 0 10px;
 }
 
@@ -151,7 +151,7 @@ footer{
 
 .container {
     width: 100%;
-    margin: 0 auto;
+    margin: 30px auto 0;
     /* background-color: blue; */
 }
  
@@ -165,3 +165,18 @@ div{
     font-size: 80%;
 }
 /* /float              */
+
+/* footer */
+
+#centro{
+    display: block;
+    /* width: 100%; */
+    text-align: center;
+    font-size: 80%;
+}
+
+#rosso{
+    color: red;
+    font-size: 200%;
+}
+/* /footer */
