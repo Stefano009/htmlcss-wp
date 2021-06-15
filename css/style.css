@@ -48,6 +48,7 @@ header {
     height: 100px;
     /* background-color: fuchsia; */
     /* margin: 0 auto; */
+    margin-bottom: 30px;
 }
 
 .link > li,a {
@@ -82,7 +83,19 @@ footer{
 /* main */
 
 .main{
-    height: 500px;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#banner{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    inset: 0;
+    object-fit: cover;
+
 }
 
 /* /main */
