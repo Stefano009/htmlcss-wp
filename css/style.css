@@ -31,16 +31,34 @@ aside  {
 aside ,
 .content {
     float: left;
-    background-color: lightblue;
+    /* background-color: lightblue; */
     padding: 10px;
 
 }
 
 .box{
     border-radius: 5px;
+    display: inline-block;
+    /* border: solid 1px black; */
+
     
 }
 
+.uppercase{
+
+    text-transform: uppercase;
+
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+
+}
 /* /common */
 
 /* header */
@@ -56,7 +74,6 @@ header {
     padding-right: 10px;
     text-decoration: none;
     color: gray;
-    text-transform: uppercase;
 
 }
 
@@ -75,7 +92,7 @@ header {
 /* footer */
 footer{
     height: 50px;
-    background-color: purple;
+    /* background-color: purple; */
     margin: 15px auto;
 }
 /* /footer */
@@ -89,15 +106,35 @@ footer{
     margin-bottom: 30px;
 }
 
-#banner{
+.scale{
     position: absolute;
     height: 100%;
     width: 100%;
     inset: 0;
     object-fit: cover;
+    border-radius: 5px;
+
 
 }
 
+#title{
+    font-weight: 900;
+    font-size: 200%;
+}
+
+.aside{
+    position: relative;
+    width:calc(100%/5);
+    height: 100px;
+    padding: 10px;
+}
+
+.middle{
+    position: relative;
+    width: calc((100%/5)*3 - 20px);
+    height: 100px;
+    margin: 0 10px;
+}
 /* /main */
 
 /* float */
@@ -106,12 +143,16 @@ footer{
 .container {
     width: 100%;
     margin: 0 auto;
-    background-color: blue;
+    /* background-color: blue; */
 }
  
 .clearfix{
     content: "";
     display: table;
     clear: both;
+}
+.container>aside,
+div{
+    font-size: 80%;
 }
 /* /float              */
