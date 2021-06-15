@@ -1,0 +1,77 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+/* common  */
+body {
+    width: 80%;
+}
+
+.topbar{
+    width: 100%;
+
+}
+
+aside  {
+    width: calc(100%/5);
+    margin-top: 10px;
+
+}
+
+.content {
+    width: calc((100%/5)*3 - 20px);
+    margin: 10px;
+    
+
+}
+.topbar ,
+aside ,
+.content {
+    float: left;
+    background-color: lightblue;
+    padding: 10px;
+
+}
+
+
+
+/* /common */
+
+/* header */
+header {
+    height: 100px;
+    background-color: fuchsia;
+    margin: 15px auto;
+}
+
+/* /header */
+
+/* footer */
+footer{
+    height: 50px;
+    background-color: purple;
+    margin: 15px auto;
+}
+/* /footer */
+
+/* float */
+.box{
+    height: 400px;
+    background-color: goldenrod;
+    margin-bottom: 15px ;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: blue;
+}
+ 
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* /float              */
