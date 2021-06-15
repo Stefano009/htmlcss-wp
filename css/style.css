@@ -6,7 +6,8 @@
 
 /* common  */
 body {
-    width: 80%;
+    width: 60%;
+    font-family: Montserrat, sans-serif;
 }
 
 .topbar{
@@ -35,17 +36,39 @@ aside ,
 
 }
 
-
+.box{
+    border-radius: 5px;
+    
+}
 
 /* /common */
 
 /* header */
 header {
     height: 100px;
-    background-color: fuchsia;
-    margin: 15px auto;
+    /* background-color: fuchsia; */
+    /* margin: 0 auto; */
 }
 
+.link > li,a {
+    display: inline;
+    padding-right: 10px;
+    text-decoration: none;
+    color: gray;
+    text-transform: uppercase;
+
+}
+
+#logo {
+    height: 70px;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-right: 1px solid gray;
+}
+
+.top{
+    height: 200px;
+}
 /* /header */
 
 /* footer */
@@ -56,12 +79,16 @@ footer{
 }
 /* /footer */
 
-/* float */
-.box{
-    height: 400px;
-    background-color: goldenrod;
-    margin-bottom: 15px ;
+/* main */
+
+.main{
+    height: 500px;
 }
+
+/* /main */
+
+/* float */
+
 
 .container {
     width: 100%;
